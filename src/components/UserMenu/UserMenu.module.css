@@ -1,0 +1,31 @@
+.userWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userWrapper h2 {
+  padding: 8px;
+  margin: 12px 0;
+
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.logoutBtn {
+  align-items: center;
+  margin-left: 30px;
+  padding: 5px 10px;
+
+  border: transparent;
+  outline: transparent;
+
+  transition: all 250ms;
+
+  cursor: pointer;
+}
+
+.logoutBtn:hover {
+  color: white;
+  background-color: #8a2be2;
+}
